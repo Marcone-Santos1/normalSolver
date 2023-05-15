@@ -21,4 +21,4 @@ dependencies = [
 name = "normal_captcha"
 
 [project.scripts]
-my-script = "normal_captcha.main:main"
+my-script = "normal_captcha_solver.main:main"
