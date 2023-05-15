@@ -7,7 +7,7 @@ name = "normal_captcha"
 authors = [
     {name = "ms5806166@gmail.com", email = "ms5806166@gmail.com"},
 ]
-version = {file = "version.txt", dynamic = true}
+version = ""
 description = "A tool for solving normal captchas."
 readme = "README.md"
 requires-python = ">=3.7"
