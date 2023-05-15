@@ -7,7 +7,7 @@ name = "normal_captcha"
 authors = [
     {name = "ms5806166@gmail.com", email = "ms5806166@gmail.com"},
 ]
-
+description = "A tool for solve normal captcha"
 readme = "README.md"
 requires-python = ">=3.10"
 classifiers = ["License :: MIT License"]
