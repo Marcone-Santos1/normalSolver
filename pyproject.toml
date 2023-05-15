@@ -10,7 +10,7 @@ authors = [
 description = "A tool for solve normal captcha"
 readme = "README.md"
 requires-python = ">=3.10"
-classifiers = ["License :: MIT License"]
+license = {text = "MIT"}
 dynamic = ["version"]
 dependencies = [
     "pytesseract==0.3.10",
