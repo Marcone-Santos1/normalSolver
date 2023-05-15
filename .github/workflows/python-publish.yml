@@ -31,6 +31,7 @@ jobs:
         python-version: '3.x'
     - name: Install dependencies
       run: |
+        python tasks.py
         python -m pip install --upgrade pip
         pip install build
     - name: Build package
