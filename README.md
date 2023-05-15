@@ -1,5 +1,5 @@
 ````python
-from nomal_captcha.main import NormalCaptcha
+from normal_captcha.main import NormalCaptcha
 
 text = (
     NormalCaptcha(
