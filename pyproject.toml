@@ -23,4 +23,4 @@ dependencies = [
 version = {attr = "normal_captcha.__version__"}
 
 [project.scripts]
-my-script = "normal_captcha_solver.main:main"
+my-script = "normal_captcha.main:main"
