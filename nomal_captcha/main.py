@@ -9,7 +9,7 @@ class NormalCaptcha:
 
     def main(self, path: str, tesseract_path: str):
         if path is [None, '']:
-            raise ValueError('Os Valores devem ser preenchidos')
+            raise ValueError('All the params are requireds')
 
         pytesseract.pytesseract.tesseract_cmd = tesseract_path
         self.path = path
