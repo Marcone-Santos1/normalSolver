@@ -12,7 +12,7 @@ dynamic = ["version"]
 
 description = "A tool for solving normal captchas."
 readme = "README.md"
-requires-python = ">=3.*"
+requires-python = ">=3.7"
 license = {text = "MIT"}
 dependencies = [
     "pytesseract==0.3.10",
