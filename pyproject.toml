@@ -1,13 +1,15 @@
 [build-system]
-requires = ["setuptools", "setuptools-scm"]
-build-backend = "setuptools.build_meta"
+requires = ["setuptools", "setuptools-scm", "flit_core>=3.2,<4"]
+build-backend = ["setuptools.build_meta", "flit_core.buildapi"]
 
 [project]
 name = "normal_captcha"
 authors = [
     {name = "ms5806166@gmail.com", email = "ms5806166@gmail.com"},
 ]
-version = {file = "version.py", attr = "VERSION"}
+
+dynamic = ["version"]
+
 description = "A tool for solving normal captchas."
 readme = "README.md"
 requires-python = ">=3.*"
@@ -16,8 +18,6 @@ dependencies = [
     "pytesseract==0.3.10",
     'Pillow==9.5.0',
 ]
-
-dynamic = ["version"]
 
 [project.scripts]
 my-script = "normal_captcha_solver.main:main"

@@ -1,3 +1,2 @@
-import importlib.metadata
-
-__version__ = importlib.metadata.version("normal_captcha")
+import datetime
+__version__ = datetime.datetime.now().strftime('%Y.%m.%d.%H%M')
